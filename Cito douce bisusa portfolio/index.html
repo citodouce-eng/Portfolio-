@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cito Douce Bisusa - Software Engineering Student at AUCA">
+    <title>Cito Douce Bisusa | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="cursor-glow"></div>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo"><span class="logo-bracket">&lt;</span>CDB<span class="logo-bracket">/&gt;</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu"><span class="hamburger"></span></button>
+            </div>
+        </div>
+    </nav>
+    <section class="hero" id="home">
+        <div class="hero-particles"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge animate-fade-in"><span class="badge-dot"></span>Available for opportunities</div>
+                <h1 class="hero-title"><span class="animate-slide-up">Hello, I'm</span><span class="hero-name animate-slide-up" style="animation-delay:0.1s">Cito Douce Bisusa</span></h1>
+                <p class="hero-subtitle animate-slide-up" style="animation-delay:0.2s"><span class="typing-text" id="typingText"></span><span class="typing-cursor">|</span></p>
+                <p class="hero-description animate-slide-up" style="animation-delay:0.3s">Software Engineering student at AUCA passionate about building modern web applications, robust backend systems, and network engineering.</p>
+                <div class="hero-buttons animate-slide-up" style="animation-delay:0.4s">
+                    <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> View Projects</a>
+                    <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Get In Touch</a>
+                </div>
+                <div class="hero-socials animate-slide-up" style="animation-delay:0.5s">
+                    <a href="https://github.com/citodouce-eng" target="_blank" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="tel:+250793766216" class="social-link" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                    <a href="mailto:citodouce@example.com" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper animate-slide-left">
+                <div class="hero-image-glow"></div>
+                <div class="hero-image-border"><img src="profile picture/Douce.jpeg" alt="Cito Douce Bisusa" class="hero-image"></div>
+                <div class="hero-float-card hero-float-1"><i class="fas fa-code"></i><span>Full-Stack Dev</span></div>
+                <div class="hero-float-card hero-float-2"><i class="fas fa-network-wired"></i><span>Network Engineer</span></div>
+                <div class="hero-float-card hero-float-3"><i class="fas fa-shield-alt"></i><span>Cisco Certified</span></div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator"><a href="#about" class="scroll-mouse"><span class="scroll-dot"></span></a><span>Scroll Down</span></div>
+    </section>
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header"><span class="section-tag">About Me</span><h2 class="section-title">Who I Am</h2><div class="section-line"></div></div>
+            <div class="about-grid">
+                <div class="about-image-col">
+                    <div class="about-image-wrapper">
+                        <div class="about-image-border"></div>
+                        <img src="profile picture/Douce.jpeg" alt="Cito Douce Bisusa" class="about-image">
+                        <div class="about-exp"><span class="exp-number">3+</span><span class="exp-text">Years of<br>Learning</span></div>
+                    </div>
+                </div>
+                <div class="about-content-col">
+                    <h3 class="about-heading">A passionate developer crafting digital solutions</h3>
+                    <p class="about-text">I am a Software Engineering student at the <strong>Adventist University of Central Africa (AUCA)</strong>, with a strong foundation in both frontend and backend development. My journey in tech started with curiosity about how systems work, and it has evolved into a passion for building scalable, user-centric applications.</p>
+                    <p class="about-text">Beyond software development, I hold <strong>Cisco certifications</strong> in Network Operations and Advanced Networking, giving me a unique perspective on how applications interact with network infrastructure.</p>
+                    <div class="about-stats">
+                        <div class="stat-item"><span class="stat-number" data-target="15">0</span><span class="stat-suffix">+</span><span class="stat-label">Technologies</span></div>
+                        <div class="stat-item"><span class="stat-number" data-target="5">0</span><span class="stat-suffix">+</span><span class="stat-label">Projects</span></div>
+                        <div class="stat-item"><span class="stat-number" data-target="3">0</span><span class="stat-suffix"></span><span class="stat-label">Certifications</span></div>
+                    </div>
+                    <div class="about-cta"><a href="cv download/Cito_Douce_Bisusa_CV.pdf" download="Cito_Douce_Bisusa_CV.pdf" class="btn btn-primary"><i class="fas fa-download"></i> Download CV</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="section-header"><span class="section-tag">My Skills</span><h2 class="section-title">Technical Expertise</h2><div class="section-line"></div></div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-card-header"><div class="skill-icon"><i class="fas fa-laptop-code"></i></div><h3 class="skill-card-title">Frontend Development</h3></div>
+                    <div class="skill-list">
+                        <div class="skill-item"><span class="skill-name"><i class="fab fa-react"></i> React.js</span><div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div></div>
+                        <div class="skill-item"><span class="skill-name"><i class="fab fa-js"></i> TypeScript</span><div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div></div>
+                        <div class="skill-item"><span class="skill-name"><i class="fab fa-js-square"></i> JavaScript</span><div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div></div>
+                        <div class="skill-item"><span class="skill-name"><i class="fab fa-html5"></i> HTML5 and CSS3</span><div class="skill-bar"><div class="skill-progress" data-progress="95"></div></div></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-card-header"><div class="skill-icon"><i class="fas fa-server"></i></div><h3 class="skill-card-title">Backend Development</h3></div>
+                    <div class="skill-list">
+                        <div class="skill-item"><span class="skill-name"><i class="fab fa-java"></i> Java</span><div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div></div>
+                        <div class="skill-item"><span class="skill-name"><i class="fab fa-python"></i> Python</span><div class="skill-bar"><div class="skill-progress" data-progress="75"></div></div></div>
+                        <div class="skill-item"><span class="skill-name"><i class="fas fa-plug"></i> Web API Development</span><div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div></div>
+                        <div class="skill-item"><span class="skill-name"><i class="fas fa-exchange-alt"></i> RESTful Services</span><div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-card-header"><div class="skill-icon"><i class="fas fa-database"></i></div><h3 class="skill-card-title">Database</h3></div>
+                    <div class="skill-list">
+                        <div class="skill-item"><span class="skill-name"><i class="fas fa-table"></i> PostgreSQL</span><div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div></div>
+                        <div class="skill-item"><span class="skill-name"><i class="fas fa-database"></i> SQL</span><div class="skill-bar"><div class="skill-progress" data-progress="88"></div></div></div>
+                        <div class="skill-item"><span class="skill-name"><i class="fas fa-project-diagram"></i> Database Design</span><div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-card-header"><div class="skill-icon"><i class="fas fa-network-wired"></i></div><h3 class="skill-card-title">Network and Tools</h3></div>
+                    <div class="skill-list">
+                        <div class="skill-item"><span class="skill-name"><i class="fab fa-linux"></i> Advanced Linux</span><div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div></div>
+                        <div class="skill-item"><span class="skill-name"><i class="fas fa-sitemap"></i> Network Operations</span><div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div></div>
+                        <div class="skill-item"><span class="skill-name"><i class="fas fa-router"></i> Advanced Networking (Cisco)</span><div class="skill-bar"><div class="skill-progress" data-progress="88"></div></div></div>
+                        <div class="skill-item"><span class="skill-name"><i class="fas fa-vial"></i> Postman API Testing</span><div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="education section" id="education">
+        <div class="container">
+            <div class="section-header"><span class="section-tag">Education and Certifications</span><h2 class="section-title">My Learning Journey</h2><div class="section-line"></div></div>
+            <div class="timeline">
+                <div class="timeline-item"><div class="timeline-marker active"></div><div class="timeline-content"><div class="timeline-badge">Current</div><h3 class="timeline-title">Software Engineering</h3><h4 class="timeline-subtitle">Adventist University of Central Africa (AUCA)</h4><p class="timeline-description">Pursuing a degree in Software Engineering with focus on full-stack development, software architecture, and modern engineering practices.</p><div class="timeline-tags"><span class="tag">Software Engineering</span><span class="tag">Full-Stack</span><span class="tag">Algorithms</span></div></div></div>
+                <div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><div class="timeline-badge">2026</div><h3 class="timeline-title">Certificate in Network Operations</h3><h4 class="timeline-subtitle">Cisco Certified</h4><p class="timeline-description">Specialized in network infrastructure, protocols, and operational best practices.</p><div class="timeline-tags"><span class="tag">NetOps</span><span class="tag">Infrastructure</span><span class="tag">Protocols</span></div></div></div>
+                <div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><div class="timeline-badge">2025</div><h3 class="timeline-title">Certificate in Advanced Networking</h3><h4 class="timeline-subtitle">Cisco Certified</h4><p class="timeline-description">Advanced network design, implementation, and troubleshooting techniques.</p><div class="timeline-tags"><span class="tag">Advanced Networking</span><span class="tag">Design</span><span class="tag">Troubleshooting</span></div></div></div>
+                <div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><div class="timeline-badge">2023</div><h3 class="timeline-title">High School Diploma</h3><h4 class="timeline-subtitle">CIREZI - Scientific Track</h4><p class="timeline-description">Completed high school at CIREZI with a focus on scientific studies, building a strong foundation in mathematics and physics.</p><div class="timeline-tags"><span class="tag">Mathematics</span><span class="tag">Physics</span><span class="tag">Scientific</span></div></div></div>
+            </div>
+        </div>
+    </section>
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-header"><span class="section-tag">My Work</span><h2 class="section-title">Featured Projects</h2><div class="section-line"></div></div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image"><img src="profile picture/potato.jpeg" alt="Sweet Potage project"><div class="project-overlay"><div class="project-links"><a href="https://github.com/citodouce-eng" target="_blank" class="project-link" aria-label="View Code"><i class="fab fa-github"></i></a><a href="https://sweet-potage-menu.vercel.app/" target="_blank" class="project-link" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a></div></div></div>
+                    <div class="project-content"><div class="project-type">Web Application</div><h3 class="project-title">Sweet Potage</h3><p class="project-description">A modern food delivery application that connects customers with local restaurants. Features real-time order tracking, menu management, and secure payment integration.</p><div class="project-tech"><span class="tech-tag">React.js</span><span class="tech-tag">Node.js</span><span class="tech-tag">PostgreSQL</span><span class="tech-tag">REST API</span></div></div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"><img src="profile picture/medicine_stock_management_system.jpeg" alt="Medicine Stock Management project"><div class="project-overlay"><div class="project-links"><a href="https://github.com/citodouce-eng/medicine-stock-management-backend" target="_blank" class="project-link" aria-label="View Backend Code"><i class="fab fa-github"></i></a></div></div></div>
+                    <div class="project-content"><div class="project-type">Backend System</div><h3 class="project-title">Medicine Stock Management</h3><p class="project-description">A backend application for medicine inventory management, providing data access and business services for stock, pharmacy, supplier, and automated report operations.</p><div class="project-tech"><span class="tech-tag">Java</span><span class="tech-tag">Python</span><span class="tech-tag">PostgreSQL</span><span class="tech-tag">REST API</span></div></div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"><img src="profile picture/Apiculture.jpeg" alt="Glody Apiculture project"><div class="project-overlay"><div class="project-links"><a href="https://github.com/citodouce-eng" target="_blank" class="project-link" aria-label="View Code"><i class="fab fa-github"></i></a><a href="https://glody-apiculture.vercel.app/index.html" target="_blank" class="project-link" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a></div></div></div>
+                    <div class="project-content"><div class="project-type">Web Application</div><h3 class="project-title">Glody Apiculture</h3><p class="project-description">A web application dedicated to apiculture, presenting beekeeping services and information through an accessible and modern interface.</p><div class="project-tech"><span class="tech-tag">Web Application</span><span class="tech-tag">HTML</span><span class="tech-tag">CSS</span><span class="tech-tag">JavaScript</span></div></div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"><img src="profile picture/top10_maize_producers_africa.jpeg" alt="Maize Production in Africa project"><div class="project-overlay"><div class="project-links"><a href="https://github.com/citodouce-eng/Maize-Production-in-Africa" target="_blank" class="project-link" aria-label="View Code"><i class="fab fa-github"></i></a></div></div></div>
+                    <div class="project-content"><div class="project-type">Backend System</div><h3 class="project-title">Maize Production in Africa</h3><p class="project-description">A backend system focused on maize production in Africa, designed to organize agricultural data and support production-related management processes.</p><div class="project-tech"><span class="tech-tag">System</span><span class="tech-tag">Database</span><span class="tech-tag">Agriculture</span></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header"><span class="section-tag">Get In Touch</span><h2 class="section-title">Lets Work Together</h2><div class="section-line"></div></div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3 class="contact-heading">Have a project in mind?</h3>
+                    <p class="contact-text">I am always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out through any of the channels below.</p>
+                    <div class="contact-details">
+                        <div class="contact-item"><div class="contact-icon"><i class="fas fa-phone"></i></div><div class="contact-item-content"><span class="contact-label">Phone</span><a href="tel:+250793766216" class="contact-value">+250 793 766 216</a></div></div>
+                        <div class="contact-item"><div class="contact-icon"><i class="fab fa-github"></i></div><div class="contact-item-content"><span class="contact-label">GitHub</span><a href="https://github.com/citodouce-eng" target="_blank" class="contact-value">github.com/citodouce-eng</a></div></div>
+                        <div class="contact-item"><div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div><div class="contact-item-content"><span class="contact-label">Location</span><span class="contact-value">Rwanda, Africa</span></div></div>
+                        <div class="contact-item"><div class="contact-icon"><i class="fas fa-graduation-cap"></i></div><div class="contact-item-content"><span class="contact-label">University</span><span class="contact-value">AUCA</span></div></div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group"><input type="text" id="name" name="name" required placeholder=" "><label for="name">Your Name</label><div class="form-line"></div></div>
+                        <div class="form-group"><input type="email" id="email" name="email" required placeholder=" "><label for="email">Your Email</label><div class="form-line"></div></div>
+                        <div class="form-group"><input type="text" id="subject" name="subject" required placeholder=" "><label for="subject">Subject</label><div class="form-line"></div></div>
+                        <div class="form-group"><textarea id="message" name="message" rows="5" required placeholder=" "></textarea><label for="message">Your Message</label><div class="form-line"></div></div>
+                        <button type="submit" class="btn btn-primary btn-full"><i class="fas fa-paper-plane"></i> Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo"><span class="logo-bracket">&lt;</span>CDB<span class="logo-bracket">/&gt;</span></div>
+                <p class="footer-text">&copy; 2026 Cito Douce Bisusa. Crafted with <i class="fas fa-heart"></i> and code.</p>
+                <div class="footer-socials">
+                    <a href="https://github.com/citodouce-eng" target="_blank" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="tel:+250793766216" class="social-link" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                    <a href="mailto:citodouce@example.com" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+    <script src="script.js"></script>
+</body>
+</html>
